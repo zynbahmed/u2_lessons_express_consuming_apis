@@ -196,7 +196,7 @@ mkdir views
 touch views/index.ejs
 ```
 
-and then past the following into your index.ejs:
+and then paste the following into your index.ejs:
 
 ```
 <!DOCTYPE html>
