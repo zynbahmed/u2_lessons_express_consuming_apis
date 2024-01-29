@@ -69,21 +69,6 @@ https://pokeapi.co/api/v2/pokemon/1
 </details>
 
 
-## Different Architectural Approaches
-
-When accessing APIs, there are a few different architectural approaches we can take:
-
-<img src="https://i.imgur.com/Hflu0K0.png">
-
-- The top-approach is the recommended approach with traditional web apps that respond to client requests with a new HTML page.  Access tokens remain secure on the server.
-
-- The middle-approach is recommended for single-page apps (SPAs) like the MERN-stack apps we'll develop in unit 4.
-
-- The bottom-approach is not recommended because access tokens would have to be sent to the browser.  Because of this, many APIs will disallow this architecture by not implementing [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (discussed in a later lesson) and the request will fail.
-
-Since we will be developing traditional web apps in this and next unit, we'll use the **top-approach** in this lesson.
-
-
 ## Getting Started
 
 1. **Navigate to your code folder:**
