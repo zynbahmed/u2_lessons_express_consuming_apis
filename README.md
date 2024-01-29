@@ -145,11 +145,6 @@ app.get('/', async (req, res) => {
 
   try {
     const response = await axios.get(catFactsUrl);
-    
-    if (response.status !== 200) {
-      throw new Error(`Failed to fetch cat facts. Status: ${response.status}`);
-    }
-
     const catFacts = response.data.data;
 
     res.json(catFacts);
