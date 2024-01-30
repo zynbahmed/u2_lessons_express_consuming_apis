@@ -71,9 +71,9 @@ https://pokeapi.co/api/v2/pokemon/1
 
 ## Getting Started
 
-1. **Navigate to your code folder:**
+1. **Navigate to your GA folder:**
    
-Open your terminal and navigate to the folder where you want to create your project.  
+Open your terminal and navigate to the labs folder within GA.  
 
 2. **Create Project Directory:**
 
@@ -82,10 +82,10 @@ mkdir express-cat-api
 cd express-cat-api 
 ```
 
-3. **Create an App.js file:**
+3. **Create a server.js file:**
 
 ```
-touch app.js
+touch server.js
 code . 
 ```
 
@@ -108,7 +108,7 @@ npm i express ejs
 Within `app.js` add the following code to set up a basic Express application:
 
 ```
-// app.js
+// server.js
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -137,7 +137,7 @@ npm i axios
 Let's create our first endpoint.  We'll make a `get` request to the `/'.  Don't forget to import axios above our routes.  
 
 ```
-// Inside app.js
+// Inside server.js
 const axios = require('axios');
 
 app.get('/', async (req, res) => {
