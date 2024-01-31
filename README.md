@@ -159,10 +159,12 @@ _a little more on promises:_
 Asynchronous methods in JavaScript often return promises. These promises represent the eventual completion or failure of an asynchronous operation, such as retrieving data from a database. When the asynchronous operation is successful, the promise is resolved with the result data. On the other hand, if there is an error during the operation, the promise is rejected with an error object. Developers can then use .then() to handle successful outcomes and .catch() to handle errors when working with promises.  For example, we could rewrite the `async/await` above using the following syntax that makes use of promise chaining:
 
 ```
+let result;
+
 axios.get(catFactsUrl)
   .then(response => {
     // Handle successful response here
-    console.log(response.data);
+    result = response.data.data;
   })
   .catch(error => {
     // Handle error here
