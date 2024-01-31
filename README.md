@@ -73,6 +73,8 @@ https://pokeapi.co/api/v2/pokemon/1
 
 - `Fork` and `clone` this repo in your GA folder
 - `cd` into the repo
+-  `mdkir` cat_app
+-  `cd` cat_app
 - `touch server.js` to create an entry point for your server
 - Run `npm init -y` to initialize your project as a `Node.js` project
 - Install express and ejs with `npm i express ejs`
