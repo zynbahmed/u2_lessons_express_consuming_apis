@@ -101,7 +101,7 @@ npm i express ejs
 
 2. **Configure Express App:**
 
-Within `app.js` add the following code to set up a basic Express application:
+Within `server.js` add the following code to set up a basic Express application:
 
 ```
 // server.js
