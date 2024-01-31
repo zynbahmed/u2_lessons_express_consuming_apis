@@ -13,7 +13,8 @@ app.get('/', async (req, res) => {
     const response = await axios.get(catFactsUrl);
     const catFacts = response.data.data;
 
-    res.json(catFacts);
+    // res.json(catFacts);
+    res.render("index", {catFacts})
   } catch (error) {
     console.error('Error fetching cat facts:', error);
     res.status(500).send('Error fetching cat facts');
