@@ -73,16 +73,34 @@ https://pokeapi.co/api/v2/pokemon/1
 
 1. **Navigate to your GA folder:**
    
-Open your terminal and navigate to the labs folder within GA.  
+Open your terminal and navigate to the labs folder within your GA folder.  
 
-2. **Create Project Directory:**
+2. **Initialize Node Project**
+
+```
+- `Fork` and `clone` this repo
+- `cd` into the repo
+- `touch server.js` to create an entry point for your server
+- Run `npm init -y` to initialize your project as a `Node.js` project
+- Install express with `npm i express`
+- Add `start` and `dev` scripts to `package.json` that will run on your server's entry point:
+	```js
+	"scripts": {
+		"start": "nodemon serverjs"
+	}
+	```
+- `touch .gitignore`
+- `echo node_modules > .gitignore`
+```
+
+3. **Create Project Directory:**
 
 ```
 mkdir express-cat-api
 cd express-cat-api 
 ```
 
-3. **Create a server.js file:**
+4. **Create a server.js file:**
 
 ```
 touch server.js
