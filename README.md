@@ -46,7 +46,7 @@ Pick one that's interesting to you and identify the following:
   - Is it completely free, free up to a certain usage, or paid from the start?
   - Does it require authentication (usually via a token)?
 
-
+ 
 ## I Have a Simple Request
 
 It only takes a simple `GET` request to one of the API's available endpoints to retrieve data.
@@ -82,7 +82,7 @@ Open your terminal and navigate to the labs folder within your GA folder.
 - `touch server.js` to create an entry point for your server
 - Run `npm init -y` to initialize your project as a `Node.js` project
 - Install express with `npm i express`
-- Add `start` and `dev` scripts to `package.json` that will run on your server's entry point:
+- Add a `start` script to `package.json` that will run on your server's entry point:
 	```js
 	"scripts": {
 		"start": "nodemon serverjs"
