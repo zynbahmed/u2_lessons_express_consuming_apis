@@ -77,8 +77,7 @@ https://pokeapi.co/api/v2/pokemon/1
 -  `cd` cat_app
 - `touch server.js` to create an entry point for your server
 - Run `npm init -y` to initialize your project as a `Node.js` project
-- Install express and ejs with `npm i express ejs`
-- Add a `start` script to `package.json` that will run on your server's entry point:
+- Modify your `start` script in `package.json` that will run on your server's entry point:
 	```js
 	"scripts": {
 		"start": "nodemon serverjs"
