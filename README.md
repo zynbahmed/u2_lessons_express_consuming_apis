@@ -77,7 +77,6 @@ Open your terminal and navigate to the labs folder within your GA folder.
 
 2. **Initialize Node Project**
 
-```
 - `Fork` and `clone` this repo
 - `cd` into the repo
 - `touch server.js` to create an entry point for your server
@@ -91,7 +90,6 @@ Open your terminal and navigate to the labs folder within your GA folder.
 	```
 - `touch .gitignore`
 - `echo node_modules > .gitignore`
-```
 
 3. **Create Project Directory:**
 
